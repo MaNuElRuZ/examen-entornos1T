@@ -1,0 +1,20 @@
+$ git tag v1.0  16fefa2 -m "RUZ-CASTRO-paso5"
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+$ git merge Ruz-Castro
+Updating b79c7ba..6b0ef9e
+Fast-forward
+ Respuestas/ejercicio1.4.txt.txt | 23 +++++++++++++++++++++++
+ Respuestas/ejercicio1.6.txt.txt |  4 ++++
+ 2 files changed, 27 insertions(+)
+ create mode 100644 Respuestas/ejercicio1.4.txt.txt
+ create mode 100644 Respuestas/ejercicio1.6.txt.txt
+
+
+$ git log --pretty=oneline
+6b0ef9ee6068045110f1970cb1f1d82f89b87b10 (HEAD -> main, Ruz-Castro) Añadida respuesta ejercicio 1.6
+16fefa282adca7b8f7dcfe73314a9944e95e1059 (tag: v1.0) Añadida respuesta ejercicio 1.4
+b79c7ba1a5c71fc30ef8de370fdd12c40e316a8a (origin/main, origin/HEAD) Update .gitignore
+7b39baf748c6a994c95cdb9df0eba4b586319a14 Initial commit
